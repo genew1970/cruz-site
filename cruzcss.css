@@ -1,0 +1,140 @@
+
+  body { 
+    background: url("images/bio.jpg") no-repeat fixed center; 
+	 -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+	 
+  background-size: cover;
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url(https://www.google.com/fonts/Orbitron.) format("truetype");
+}
+h1 {
+	background-color: yellow;
+    color: darkred;
+	font-size: 60px;
+}
+
+  ul {
+    list-style-type: none;
+    margin-left: 350px;
+	margin-right: 350px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #FFFF00;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+	font-size: 20px;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+	font-size: 20px;
+    background-color: #CC0000;
+}
+
+  p.ex{border:10px solid red;
+  color: darkblue;
+  background-color: lightgray;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 350px;
+  margin-left: 350px;
+  }
+  
+  p.ey{border:5px solid red;
+  color: darkblue;
+  background-color: lightgray;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  
+  margin-right: 350px;
+  margin-left: 350px;
+  }
+  
+  h1{margin: 0px;
+  padding: 0px;
+  }
+  
+  h2 {
+    text-align: center;
+    position: relative;
+    color: #fff;    
+    margin: 30px 350px 30px 350px;
+    padding: 10px 0; 
+    text-shadow: 0 1px rgba(0,0,0,.8);
+    background-color: darkgreen;
+    background-image:  linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+    -moz-box-shadow: 0 2px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.3);
+    box-shadow: 0 2px 0 rgba(0,0,0,.3);
+}
+
+h2:before, 
+h2:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    bottom: -10px;
+}
+
+h2:before {
+    border-width: 0 10px 10px 0;
+    border-right-color: #222;
+    left: 0;
+}
+
+h2:after {
+    border-width: 0 0 10px 10px;
+    border-left-color: #222;
+    right: 0;
+}
+
+body {
+    margin: 35px;
+}
+
+fieldset { 
+	color: darkblue;
+    display: block;
+    margin-left: 400px;
+    margin-right: 400px;	
+	margin-bottom:4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 0.75em;
+    border: 10px groove (internal value);
+	background-color: white;
+}
+
+legend {
+	font-size: 25px;
+	color: darkred;
+	background-color: yellow;
+}
+
+
+
+

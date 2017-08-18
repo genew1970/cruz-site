@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="cruzcss.css">
+</head>
+<body>
+
+
+<script>
+
+function newTab() {
+    alert("Opening a new tab");
+}
+
+function submission() {
+    alert("Thank you for submitting your info!");
+}
+</script>
+
+<center><iframe src="http://streambadge.com/twitch/?username=cruzman" style="  width:1198px; height:64px;border:5;"></iframe></center>
+
+
+
+
+<center><img src="header.jpg" alt="Cruzman11 top heading"></center>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="platforms.html">Game Platforms</a></li>
+  
+  <li><a class="active" href="#contact">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+<article><h2>Contact Cruz!</h2>
+<form onSubmit="submission();" name="contactform" method="post" action="mailto:scor553@cruzman11.com">
+<fieldset>
+	<legend>Personal Info</legend>
+	<label>Twitch Handle<br>
+		<input id="twitch_name" name="twitch_name" type="text" maxlength="20" required autofocus>
+	</label><br><br>
+	<label>Email Address (optional)<br>
+		<input id="email" name="email" type="email" maxlength="30" placeholder="example@domain.com"><br><br>
+	</label>
+	<label>Age (between 18 and 100)<br>
+		<input id="age" name="age" type="number" min="18" max="100" required><br><br>
+	<label>Sex<br>
+		<input value="male" name="sex" type="radio" checked>Male<br>
+		<input value="female" name="sex" type="radio">Female<br>
+		<input value="other" name="sex" type="radio">Other<br>
+		<input value="prefer not to say" name="sex" type="radio">Prefer not to say<br>
+	</label>
+</fieldset>
+<fieldset>
+	<legend>Gaming Info</legend>
+	<Label>Sytems You Own: (check all that apply)<br><br>
+		<input type="checkbox" name="system1" value="ps1"> PS1
+		<input type="checkbox" name="system2" value="ps2"> PS2
+		<input type="checkbox" name="system3" value="ps3"> PS3
+		<input type="checkbox" name="system4" value="ps4"> PS4<br><br>
+		<input type="checkbox" name="system5" value="xbox"> Xbox
+		<input type="checkbox" name="system6" value="xbox360"> Xbox 360
+		<input type="checkbox" name="system7" value="xbox one"> Xbox One<br><br>
+		<input type="checkbox" name="system8" value="wii"> Wii
+		<input type="checkbox" name="system9" value="wiiu"> Wii U
+		<input type="checkbox" name="system10" value="pc"> Computer<br><br><br>
+	</label>
+	<label> Favorite Game Cruz Streams<br>
+		<input type="text" name="genre" id="genre" maxlength="20"> 
+	</label><br><br>
+	<label>Comments:<br>	
+		<textarea id="comments" name="comments" maxlength="700" placeholder="Tell us what you would like to see on streams :)" rows="18" cols="60"></textarea><br><br>
+	</label>
+	<button type="submit" value="Submit" id="submit">Submit</button>
+</fieldset>
+</form>
+</article>
+
+<footer>
+	<h2>Follow Cruzman11 on the links below!</h2>
+	<nav>
+		<center>
+			<a id="twitch" onclick="newTab()" href="https://www.twitch.tv/cruzman" target="_blank">
+				<img onmouseleave="leave(this)" src="images/twitch.png" alt="Twitch" style="width:72px;height:62px;border:0" background-color:"transparent">
+			</a>
+			<a onclick="newTab()" href="https://www.youtube.com/channel/UCqZBLYdpHwMRY9iLpX9C6Tg" target="_blank">
+				<img src="images/YouTube.png" alt="HTML tutorial" style="width:82px;height:62px;border:0" background-color:"transparent">
+			</a>
+			<a onclick="newTab()" href="https://twitter.com/cruz_man11" target="_blank">
+				<img src="images/twitter.png" alt="HTML tutorial" style="width:72px;height:62px;border:0" background-color:"transparent">
+			</a>
+		</center>
+	</nav>
+</footer>
+</center>
+</body>
+</html>
+
